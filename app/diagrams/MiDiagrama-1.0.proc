@@ -138,6 +138,35 @@
         <value xmi:type="expression:Expression" xmi:id="_RAIwejpDEfGL-f-yGF-pTw" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
+    <elements xmi:type="process:Pool" xmi:id="_0xqfsDpTEfGR29imTY0xeg" name="Proceso de fidelización y encuesta ">
+      <formMapping xmi:type="process:FormMapping" xmi:id="_00gYUDpTEfGR29imTY0xeg">
+        <targetForm xmi:type="expression:Expression" xmi:id="_00gYUTpTEfGR29imTY0xeg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </formMapping>
+      <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_00gYUjpTEfGR29imTY0xeg">
+        <targetForm xmi:type="expression:Expression" xmi:id="_00gYUzpTEfGR29imTY0xeg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </overviewFormMapping>
+      <contract xmi:type="process:Contract" xmi:id="_00gYVDpTEfGR29imTY0xeg"/>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_00dVADpTEfGR29imTY0xeg">
+        <name xmi:type="expression:Expression" xmi:id="_00dVATpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_00dVAjpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_00dVAzpTEfGR29imTY0xeg">
+        <name xmi:type="expression:Expression" xmi:id="_00dVBDpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_00dVBTpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_00dVBjpTEfGR29imTY0xeg">
+        <name xmi:type="expression:Expression" xmi:id="_00dVBzpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_00dVCDpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_00dVCTpTEfGR29imTY0xeg">
+        <name xmi:type="expression:Expression" xmi:id="_00dVCjpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_00dVCzpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_00dVDDpTEfGR29imTY0xeg">
+        <name xmi:type="expression:Expression" xmi:id="_00dVDTpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_00dVDjpTEfGR29imTY0xeg" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+    </elements>
     <datatypes xmi:type="process:BooleanType" xmi:id="_RAIwezpDEfGL-f-yGF-pTw" name="Boolean"/>
     <datatypes xmi:type="process:DateType" xmi:id="_RAIwfDpDEfGL-f-yGF-pTw" name="Date"/>
     <datatypes xmi:type="process:IntegerType" xmi:id="_RAIwfTpDEfGL-f-yGF-pTw" name="Integer"/>
@@ -236,6 +265,15 @@
       <styles xmi:type="notation:LineStyle" xmi:id="_RAIwmTpDEfGL-f-yGF-pTw"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_RAIwmjpDEfGL-f-yGF-pTw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RAIwmzpDEfGL-f-yGF-pTw" width="1320" height="250"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_00r-gDpTEfGR29imTY0xeg" type="2007" element="_0xqfsDpTEfGR29imTY0xeg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_00r-hTpTEfGR29imTY0xeg" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_00r-hjpTEfGR29imTY0xeg" type="7001"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_00r-gTpTEfGR29imTY0xeg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_00r-gjpTEfGR29imTY0xeg" fontName="Segoe UI"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_00r-gzpTEfGR29imTY0xeg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_00r-hzpTEfGR29imTY0xeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_00r-hDpTEfGR29imTY0xeg" width="1320" height="250"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_RAIwnDpDEfGL-f-yGF-pTw"/>
     <edges xmi:type="notation:Connector" xmi:id="_2CRmQDpDEfGL-f-yGF-pTw" type="4001" element="_2CQYIDpDEfGL-f-yGF-pTw" source="_RAIwjjpDEfGL-f-yGF-pTw" target="_0vqH0DpDEfGL-f-yGF-pTw" roundedBendpointsRadius="10" routing="Rectilinear">
