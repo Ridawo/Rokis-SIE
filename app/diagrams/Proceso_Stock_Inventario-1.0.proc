@@ -232,7 +232,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_eoxJMTpDEfGL-f-yGF-pTw" type="7002">
             <children xmi:type="notation:Shape" xmi:id="_yfhUYDpHEfGL-f-yGF-pTw" type="3005" element="_yfgGQDpHEfGL-f-yGF-pTw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_yfhUYjpHEfGL-f-yGF-pTw" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yfhUYTpHEfGL-f-yGF-pTw" x="642" y="43"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yfhUYTpHEfGL-f-yGF-pTw" x="614" y="43"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_eowiITpDEfGL-f-yGF-pTw"/>
