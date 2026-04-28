@@ -184,7 +184,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_bK-zsTpDEfGL-f-yGF-pTw" type="7002">
             <children xmi:type="notation:Shape" xmi:id="_0vqH0DpDEfGL-f-yGF-pTw" type="3027" element="_0vo5sDpDEfGL-f-yGF-pTw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_0vqH0jpDEfGL-f-yGF-pTw" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0vqH0TpDEfGL-f-yGF-pTw" x="182" y="25" width="136" height="68"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0vqH0TpDEfGL-f-yGF-pTw" x="182" y="43" width="136" height="68"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_9_c4MDpDEfGL-f-yGF-pTw" type="3008" element="_9_cRIDpDEfGL-f-yGF-pTw" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_9_c4MjpDEfGL-f-yGF-pTw" type="5026">
