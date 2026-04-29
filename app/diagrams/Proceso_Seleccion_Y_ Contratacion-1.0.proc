@@ -18,9 +18,22 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_QIfe7kCfEfGNQuD_LrmKbg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_QIfe70CfEfGNQuD_LrmKbg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_QIfe8ECfEfGNQuD_LrmKbg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_qMceEEChEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_z5oygEPKEfGSbu2azYwGkg" name="FormularioEnvioCV" content="9e3e3df9-665e-4590-ac20-02de436e3e32" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_QIfe8kCfEfGNQuD_LrmKbg"/>
+          <contract xmi:type="process:Contract" xmi:id="_QIfe8kCfEfGNQuD_LrmKbg">
+            <inputs xmi:type="process:ContractInput" xmi:id="_vJGbsEPKEfGSbu2azYwGkg" name="nombreCandidato">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_vJGbsUPKEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_wsnc4EPKEfGSbu2azYwGkg" name="emailContacto">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_wsnc4UPKEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_xgo60EPKEfGSbu2azYwGkg" name="puestoDeseado">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_xgph4EPKEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_yZspwEPKEfGSbu2azYwGkg" name="disponibilidad">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_yZspwUPKEfGSbu2azYwGkg"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_QIfe80CfEfGNQuD_LrmKbg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_BL0OwECgEfGNQuD_LrmKbg" name="Proceso finalizado" incoming="_CbJIoECgEfGNQuD_LrmKbg _vqDLsECgEfGNQuD_LrmKbg _KP63EEChEfGNQuD_LrmKbg _YkmdoEChEfGNQuD_LrmKbg">
@@ -40,9 +53,13 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_b60A-ECgEfGNQuD_LrmKbg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_b60A90CgEfGNQuD_LrmKbg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_b60A-kCgEfGNQuD_LrmKbg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_qMceEUChEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_BP--AEPKEfGSbu2azYwGkg" name="FormularioCribaCurricular" content="fd330a2f-7e5a-417d-861d-50a868286505" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_b60A-UCgEfGNQuD_LrmKbg"/>
+          <contract xmi:type="process:Contract" xmi:id="_b60A-UCgEfGNQuD_LrmKbg">
+            <inputs xmi:type="process:ContractInput" xmi:id="__OK3QEPJEfGSbu2azYwGkg" name="cumplePerfil" type="BOOLEAN">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="__OK3QUPJEfGSbu2azYwGkg"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_b60A_ECgEfGNQuD_LrmKbg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:XORGateway" xmi:id="_nZBJoECgEfGNQuD_LrmKbg" name="¿Cumple perfil?" outgoing="_vqDLsECgEfGNQuD_LrmKbg _3Coi0ECgEfGNQuD_LrmKbg" incoming="_oZkAoECgEfGNQuD_LrmKbg">
@@ -62,9 +79,19 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_0BMyJ0CgEfGNQuD_LrmKbg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_0BMyJkCgEfGNQuD_LrmKbg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_0BMyKUCgEfGNQuD_LrmKbg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_qMceEkChEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_W0NUcEPKEfGSbu2azYwGkg" name="FormularioEntrevista" content="8112aa51-c73f-4103-a47d-451ad1130456" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_0BMyKECgEfGNQuD_LrmKbg"/>
+          <contract xmi:type="process:Contract" xmi:id="_0BMyKECgEfGNQuD_LrmKbg">
+            <inputs xmi:type="process:ContractInput" xmi:id="_Mxbn8EPKEfGSbu2azYwGkg" name="contratado" type="BOOLEAN">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_Mxbn8UPKEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_N49QsEPKEfGSbu2azYwGkg" name="fechaInicio" type="OFFSETDATETIME">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_N49QsUPKEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_S9C1oEPKEfGSbu2azYwGkg" name="observacionesGerente">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_S9C1oUPKEfGSbu2azYwGkg"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_0BMyK0CgEfGNQuD_LrmKbg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:XORGateway" xmi:id="__tYFYECgEfGNQuD_LrmKbg" name="¿Contratar?" outgoing="_KP63EEChEfGNQuD_LrmKbg _Q4d4YEChEfGNQuD_LrmKbg" incoming="_AjKd4EChEfGNQuD_LrmKbg">
@@ -84,7 +111,7 @@
         </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_QIfe9ECfEfGNQuD_LrmKbg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_qMceE0ChEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_CyLykEO0EfGSbu2azYwGkg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_QIfe9kCfEfGNQuD_LrmKbg">
         <targetForm xmi:type="expression:Expression" xmi:id="_QIfe90CfEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -133,7 +160,23 @@
       <actors xmi:type="process:Actor" xmi:id="_e2xmUEChEfGNQuD_LrmKbg" documentation="persona que aspira a trabajar en la empresa &#xD;&#xA;" name="candidato" initiator="true"/>
       <actors xmi:type="process:Actor" xmi:id="_iRO7AEChEfGNQuD_LrmKbg" documentation="se encarga del proceso de validación&#xD;&#xA;" name="staff"/>
       <actors xmi:type="process:Actor" xmi:id="_l_NooEChEfGNQuD_LrmKbg" documentation="dirige la organización" name="gerente "/>
-      <contract xmi:type="process:Contract" xmi:id="_QIfe_ECfEfGNQuD_LrmKbg"/>
+      <contract xmi:type="process:Contract" xmi:id="_QIfe_ECfEfGNQuD_LrmKbg">
+        <inputs xmi:type="process:ContractInput" xmi:id="_7LyXAEO1EfGSbu2azYwGkg" name="nombreCandidato">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_7LyXAUO1EfGSbu2azYwGkg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_8FlFwEO1EfGSbu2azYwGkg" name="puestoDeseado">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_8FlFwUO1EfGSbu2azYwGkg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_8_Rt4EO1EfGSbu2azYwGkg" name="experienciaPrevia" type="BOOLEAN">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_8_Rt4UO1EfGSbu2azYwGkg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_LLQEYEO2EfGSbu2azYwGkg" name="telefonoCandidato">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_LLQEYUO2EfGSbu2azYwGkg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_MT2rMEO2EfGSbu2azYwGkg" name="disponibilidadHoraria">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_MT2rMUO2EfGSbu2azYwGkg"/>
+        </inputs>
+      </contract>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_QIfe_UCfEfGNQuD_LrmKbg">
         <name xmi:type="expression:Expression" xmi:id="_QIfe_kCfEfGNQuD_LrmKbg" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="_QIfe_0CfEfGNQuD_LrmKbg" content="" returnTypeFixed="true"/>

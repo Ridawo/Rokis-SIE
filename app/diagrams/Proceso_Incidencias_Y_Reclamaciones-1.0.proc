@@ -116,7 +116,7 @@
         </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_KeYYpECbEfGNQuD_LrmKbg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_jR51NECeEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_6mcF4EPDEfGSbu2azYwGkg" name="FormularioStockInventario" content="ac44ddb8-93b2-47f1-9c29-66cfa0e2bcc3" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_KeYYpkCbEfGNQuD_LrmKbg">
         <targetForm xmi:type="expression:Expression" xmi:id="_KeYYp0CbEfGNQuD_LrmKbg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -170,6 +170,12 @@
         </inputs>
         <inputs xmi:type="process:ContractInput" xmi:id="_FV1wQELyEfGit6RgCT7seA" name="numeroMesa" type="INTEGER">
           <mapping xmi:type="process:ContractInputMapping" xmi:id="_FV1wQULyEfGit6RgCT7seA"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_oQ4q4EPDEfGSbu2azYwGkg" name="detallesIncidencia">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_oQ4q4UPDEfGSbu2azYwGkg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_CgVk4EPFEfGSbu2azYwGkg" name="nivelSatisfaccion">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_CgWL8EPFEfGSbu2azYwGkg"/>
         </inputs>
       </contract>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_KeYYrUCbEfGNQuD_LrmKbg">

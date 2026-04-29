@@ -75,7 +75,7 @@
         </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_RAIwYzpDEfGL-f-yGF-pTw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_Qj238ELeEfGNQuD_LrmKbg" name="newForm" content="ac44ddb8-93b2-47f1-9c29-66cfa0e2bcc3" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_Qj238ELeEfGNQuD_LrmKbg" name="FormularioStockInventario" content="ac44ddb8-93b2-47f1-9c29-66cfa0e2bcc3" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_RAIwZTpDEfGL-f-yGF-pTw">
         <targetForm xmi:type="expression:Expression" xmi:id="_RAIwZjpDEfGL-f-yGF-pTw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -126,6 +126,12 @@
         </inputs>
         <inputs xmi:type="process:ContractInput" xmi:id="_t-u3AELdEfGNQuD_LrmKbg" name="canalVenta">
           <mapping xmi:type="process:ContractInputMapping" xmi:id="_t-u3AULdEfGNQuD_LrmKbg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_5WKuoEO0EfGSbu2azYwGkg" name="numeroMesa" type="INTEGER">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_5WKuoUO0EfGSbu2azYwGkg"/>
+        </inputs>
+        <inputs xmi:type="process:ContractInput" xmi:id="_7m2X0EO0EfGSbu2azYwGkg" name="notasCocina">
+          <mapping xmi:type="process:ContractInputMapping" xmi:id="_7m2X0UO0EfGSbu2azYwGkg"/>
         </inputs>
       </contract>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_RAIwbDpDEfGL-f-yGF-pTw">
