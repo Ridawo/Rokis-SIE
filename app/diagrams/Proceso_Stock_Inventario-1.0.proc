@@ -68,9 +68,19 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_yfgGSDpHEfGL-f-yGF-pTw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_yfgGRzpHEfGL-f-yGF-pTw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_yfgGSjpHEfGL-f-yGF-pTw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_yfgtUDpHEfGL-f-yGF-pTw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_QAINAEPUEfGSbu2azYwGkg" name="FormularioPrepararPedido" content="2dda1fb7-40a6-48f0-9c1c-24382eeaa003" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_yfgGSTpHEfGL-f-yGF-pTw"/>
+          <contract xmi:type="process:Contract" xmi:id="_yfgGSTpHEfGL-f-yGF-pTw">
+            <inputs xmi:type="process:ContractInput" xmi:id="_LvNxcEPUEfGSbu2azYwGkg" name="montaditoSeleccionado">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_LvNxcUPUEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_NDwigEPUEfGSbu2azYwGkg" name="cantidad" type="INTEGER">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_NDwigUPUEfGSbu2azYwGkg"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_O3o68EPUEfGSbu2azYwGkg" name="notasCocina">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_O3o68UPUEfGSbu2azYwGkg"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_yfgtUTpHEfGL-f-yGF-pTw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
